@@ -49,8 +49,8 @@ public class main {
         try(FileReader file_reader = new FileReader(direccion)){
             
             int caracter_leido = file_reader.read();
-            File file = new File(destino+"output.txt"); //"C:\\Users\\dani_\\Desktop"
-            File file2 = new File(destino+"tabla.txt"); 
+            File file = new File(destino+"\\"+"output.txt"); //"C:\\Users\\dani_\\Desktop"
+            File file2 = new File(destino+"\\"+"tabla.txt"); 
             
             if (!file.exists()) {
                 file.createNewFile();
